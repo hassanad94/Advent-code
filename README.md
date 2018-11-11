@@ -1,1 +1,1 @@
-# Advent-code
+# Advent of code 2015 Feladatok megoldásai.
