@@ -6,9 +6,6 @@ $visited =array();
 $visited[] = $e;
 $kapott = false;
 
-
-/*KEll egy aktuális pozició és kell amivel összehasonlítom array_push*/
-
 for($i=0;$i<strlen($utvonal);$i++){
 	
 	if(substr($utvonal,$i,1)=="^"){
