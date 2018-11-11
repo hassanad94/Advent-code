@@ -1,7 +1,6 @@
 <?php
 $eredmeny = 0;
 $kezelo = fopen("box.txt","r");
-$min = 0;
 $i= 0;
 $eredmeny2=0;
 if($kezelo){
