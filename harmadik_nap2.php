@@ -8,12 +8,9 @@ $visited =array();
 $visited[] = $e;
 $robovisited[] = $robo;
 $kapott = false;
-//echo'Szöveg hossz: '.strlen($utvonal);
-
-/*KEll egy aktuális pozició és kell amivel összehasonlítom array_push*/
 
 for($i=0;$i<strlen($utvonal);$i++){
-	//echo'Cilus Változó'.$i;
+	
 	if(substr($utvonal,$i,1)=="^"){
 		if($i % 2 == 0)
 		{
